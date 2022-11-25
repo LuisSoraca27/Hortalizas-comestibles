@@ -1,0 +1,213 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Roboto', sans-serif;
+   box-sizing: border-box;
+}
+
+
+.App {
+   padding-top: 20px;
+   width: 100vw;
+   height: 100vh;
+   background-image: url('./img/fondo.jpg');
+   background-size: contain;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+
+}
+
+
+
+.logo {
+   margin-top: 20px;
+   width: 130px;
+}
+
+.logo-proyecto {
+   width: 150px;
+}
+
+.container-logos {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   position: relative;
+   bottom: 30px;
+}
+
+.title-presentacion {
+   font-size: 49px;
+   font-weight: 400;
+   position: relative;
+   bottom: 30px;
+}
+
+.ir_indice {
+   top: 30px;
+   position: relative;
+}
+.button-indice {
+   background-color: #0e6d22;
+   color: antiquewhite;
+   border: none;
+   padding: 10px;
+   font-size: 15px;
+   position: fixed;
+   top: 30px;
+   left: 110px;
+   border-radius: 5px;
+}
+.button-indice a {
+   text-decoration: none;
+   color: white;
+}
+
+.integrantes {
+   font-weight: 400;
+   font-size: 23px;
+   letter-spacing: 1px;
+}
+.agroindustria {
+   margin: 35px;
+   font-size: 20px;
+   margin-bottom: -20px;
+}
+
+.paperContainer {
+   background-color: #f3f3f3;
+   width: 85%;
+   height: 100%;
+   overflow-y: auto;
+   border-radius: 5px;
+}
+
+.paperContainer::-webkit-scrollbar {
+   width: 5px;
+}
+
+.paper {
+   padding: 50px;
+   text-align: center;
+   border-radius: 10px;
+}
+
+.paper::-webkit-scrollbar {
+   width: 5px;
+}
+
+.indice {
+   padding: 20px;
+   text-align: justify;
+   text-decoration: none;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+.indice a {
+   margin: 10px;
+   font-size: 25px;
+
+}
+
+.indice a {
+   color: black;
+   transition: all .1s;
+}
+
+.indice  a:hover {
+   color: green;
+   font-size: 26px;
+}
+
+.title {
+   margin: 30px 0;
+   font-size: 50px;
+   font-weight: 300;
+}
+
+.subtitle {
+   margin: 20px 0;
+   margin-top: 60px;
+   font-size: 30px;
+   font-weight: 300;
+}
+
+.parrafo {
+   font-size: 25px;
+   margin: 20px 0;
+   text-align: justify;
+   font-weight: 100;
+}
+
+.listas {
+   text-align: start;
+   list-style-position: inside;
+   font-size: 25px;
+}
+
+.imgs {
+   width: 400px;
+   height: 250px;
+   text-align: center;
+}
+
+b {
+   color: red;
+}
+
+table {
+   -webkit-box-shadow: 10px 10px 6px -6px rgba(0,0,0,0.75);
+   -moz-box-shadow: 10px 10px 6px -6px rgba(0,0,0,0.75);
+   box-shadow: 10px 10px 6px -6px rgba(0,0,0,0.75);
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 30px;
+   border: none;
+   text-align: left;
+   border-collapse: collapse;
+}
+
+
+th,
+td {
+   padding: 10px 10px;
+   font-size: 18px;
+}
+
+th {
+   background-color: #0e6d22;
+   color: white;
+   text-align: left;
+   border: none;
+   border-bottom: 4px solid black;
+}
+
+td {
+   background-color: white;
+   border: 2px solid #0e6d22;
+   border-collapse: collapse;
+   font-size: 18px;
+   font-weight: 600;
+}
+tr {
+   border: 1px solid black;
+}
+
+.red {
+   color: red;
+}
+.center {
+   text-align: center;
+}
+.title-presupuesto {
+   font-size: 35px;
+   text-align: center;
+   margin: 40px  0;
+}
